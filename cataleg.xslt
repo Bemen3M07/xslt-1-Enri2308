@@ -10,6 +10,7 @@
       <th style="text-align:left">Titulo</th>
       <th style="text-align:left">Artistas&#128293;</th>
       <th style="text-align:left">Precio</th>
+      <th style="text-align:left"></th>
     </tr>
    <xsl:for-each select="catalog/cd[price &lt; 10]"> 
    
