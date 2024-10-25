@@ -11,7 +11,7 @@
       <th style="text-align:left">Artistas</th>
       <th style="text-align:left">Precio</th>
     </tr>
-   <xsl:for-each select="catalog/cd[price]"> 
+   <xsl:for-each select="catalog/cd[price &lt; 10]"> 
    
    <!-- <xsl:for-each select="catalog/cd[artist='Bob Dylan']"> -->
     
