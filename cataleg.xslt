@@ -21,6 +21,7 @@
       <td><xsl:value-of select="title"/></td>
       <td><xsl:value-of select="artist"/></td>
       <td><xsl:value-of select="price"/></td>
+      <td><xsl:value-of select="&#128994;"/></td>
     </tr>
     </xsl:for-each>
   </table>
