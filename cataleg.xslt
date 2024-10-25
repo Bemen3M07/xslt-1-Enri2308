@@ -6,7 +6,7 @@
 <body>
   <h2>My CD Collection</h2>
   <table border="1">
-    <tr bgcolor="red">
+    <tr bgcolor="blue">
       <th style="text-align:left">Titulo</th>
       <th style="text-align:left">Artistas</th>
       <th style="text-align:left">Precio</th>
