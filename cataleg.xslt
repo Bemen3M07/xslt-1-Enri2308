@@ -9,12 +9,16 @@
     <tr bgcolor="red">
       <th style="text-align:left">Titulo</th>
       <th style="text-align:left">Artistas</th>
+      <th style="text-align:left">Precio</th>
     </tr>
-   <xsl:for-each select="catalog/cd">
-      <xsl:sort select="artist"/>
+   <xsl:for-each select="catalog/cd"> 
+   <!-- <xsl:for-each select="catalog/cd[artist='Bob Dylan']"> -->
+    
+      <!-- <xsl:sort select="artist"/> --> 
     <tr>
       <td><xsl:value-of select="title"/></td>
       <td><xsl:value-of select="artist"/></td>
+       <td><xsl:value-of select="Price"/></td>
     </tr>
     </xsl:for-each>
   </table>
